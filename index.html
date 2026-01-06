@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Weather Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Indian Weather</h2>
+    <p class="subtitle">Check live weather of Indian cities</p>
+
+    <input type="text" id="cityInput" placeholder="Type city name...">
+    <ul id="suggestions"></ul>
+
+    <div id="weatherBox" class="hidden">
+        <h3 id="cityName"></h3>
+        <div class="info" id="temp"></div>
+        <div class="info" id="condition"></div>
+        <div class="info" id="humidity"></div>
+        <div class="info" id="wind"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #1d2671, #c33764);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.container {
+    background: #ffffff;
+    width: 360px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#suggestions {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0;
+}
+
+#suggestions li {
+    padding: 8px;
+    background: #f2f2f2;
+    margin-bottom: 3px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#suggestions li:hover {
+    background: #e0e0e0;
+}
+
+.hidden {
+    display: none;
+}
+
+#weatherBox {
+    margin-top: 20px;
+}
+
+.info {
+    margin: 6px 0;
+    font-size: 15px;
+}
